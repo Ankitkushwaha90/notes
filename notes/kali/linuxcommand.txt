@@ -1,0 +1,12 @@
+echo
+cat
+replacing vs appending (>VS>>)
+touch
+nano
+gedit
+*******************************************
+grep
+cut
+tr
+script writing
+for loops

@@ -1,0 +1,199 @@
+package com.hello;
+
+import java.sql.SQLOutput;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    static int sum(int e, int d){
+        return e+d;
+    }
+
+    public static void main(String[] args) {
+	// write your code here
+//        System.out.println("Hello world");
+//        String name ="Harry";
+//        System.out.println(name);
+//        int a = 45;
+//        float b = 45.22f;
+//        boolean isAdult = false;
+//        System.out.println(a);
+//        System.out.println(isAdult);
+//        byte u = 6;
+//        // 156 less than use for byte
+//        System.out.println(u);
+//        double d = 45.353425;
+//        char grade = 'd';
+//        System.out.println(grade);
+
+        // Operators in java
+        /*
+        * Operand, operator, Operand = Result
+        * 4          +         7     =  11
+        * Type of Operators in Java
+        * Arithmetic operators
+        * Assignment operators
+        * Logical Operators
+        * Comparison Operators*/
+//        int num1 = 45, num2=78;
+//        System.out.println("The value of num1+num2 is:");
+//        System.out.println(num1 + num2);
+//
+//        System.out.println("The value of num1+num2 is:");
+//        System.out.println(num1 - num2);
+//
+//        System.out.println("The value of num1+num2 is:");
+//        System.out.println(num1 * num2);
+//
+//        System.out.println("The value of num1+num2 is:");
+//        System.out.println(num1 / num2);
+
+//        System.out.print("The value of num1+num2 is:");
+//        System.out.println(num1 % num2);
+//        System.out.println(num1++);
+//        System.out.println(num1--);
+//        System.out.println(++num1);
+//        System.out.println(--num1);
+        /*
+        * Comparison Operators
+        * 1. == : checks for equality of two values
+        * 2. != cheacks if two value are not equal
+        * 3. <
+        * 4. >
+        * 5. <=
+        * 6. >=
+        *
+        *
+        * Logical Operators
+        * 1. && - Logical and operator- returns true only if both conditions are true
+        * 2. || - LOgical or operator- returns true if any one condition is true
+        * 2. ! - Logical not - Reverse the result from true to false and vice versa*/
+         // Taking  user input in java
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter Age");
+//        int input = scan.nextInt();
+//
+//        System.out.println(input);
+
+//        String namet = "Harry";
+//        String channel = "CodeWithHarry";
+//        System.out.println(namet);
+//        System.out.println(namet.length());
+//        System.out.println(namet.toUpperCase());
+//        System.out.println(namet + " from\" " + channel);
+//        System.out.println(namet + " from\\ " + channel);
+//        System.out.println(namet + " from\t " + channel);
+//        System.out.println(namet + " from\n " + channel);
+//        System.out.println(namet.contains("Har"));
+//        System.out.println(namet + " from\" " + channel);
+//        System.out.println(namet.endsWith("ry"));
+//        System.out.println(namet.charAt(2));
+//        System.out.println(namet.indexOf("ary"));
+
+//        int numb1 = 4,numb2 = 7;
+//        System.out.println(Math.max(numb1,numb2));
+//        System.out.println(Math.min(numb1, numb2));
+//        System.out.println(Math.sqrt(36));
+//        System.out.println(Math.abs(-36));
+//        System.out.println(Math.abs(6));
+//        System.out.println(4+(8-4)*Math.random());
+
+        // Taking user input in java
+
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter Your Age");
+//        int age = scan.nextInt();
+//
+//        System.out.println(age);
+
+        // If -else conditions
+//        if(age>5){
+//            System.out.println("You are not a kid");
+//        }else if(age>20){
+//            System.out.println("You are adult");
+//        }
+//        else{
+//            System.out.println("You are kid");
+//        }
+
+//        switch (age){
+//            case 12:
+//                System.out.println("i am 12");
+//                break;
+//            case 56:
+//                System.out.println("i am 56");
+//                break;
+//            case 16:
+//                System.out.println("i am 16");
+//                break;
+//            default:
+//                System.out.println("are you default/11");
+//                break;
+//        }
+
+        //Loops
+//        int i = 0;
+//        while (i<100){
+//            System.out.println(i);
+//            i++;
+//            i+=1;
+//        }
+
+//        int j = 0;
+//        do{
+//            System.out.println(j);
+//            j += 1;
+//        }while(j<100);
+
+//        For Loop
+//            for(st1, st2; st3){
+//
+//            }
+//        for(int i= 0; i<10; i++){
+//            System.out.println(i);
+//            break;
+//        }
+//        for(int i= 0; i<10; i++){
+//            if(i>2){
+//                System.out.println(i);
+////                break;
+//                continue;
+//            }else {
+//                System.out.println("hello i am break not execute");
+//            }
+//        }
+
+
+        // java Arrays
+//        int [] marks = {1,2,3,4};
+//        System.out.println(marks[0]);
+//        for (int i = 0; i<marks.length; i++){
+//            System.out.println(marks[i]);
+//        }
+
+//        for(int value:marks){
+//            System.out.println(value);
+//        }
+
+//        int [][] matrix = {{1,2,3}, {1,2,3,4}};
+//        System.out.println(matrix[0][1]);
+//            String [] cars = {"harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
+//            for (String value:cars){
+//                System.out.println(value);
+//            }
+//        System.out.println(cars[4]);
+//
+//        try{
+//            System.out.println(cars[5]);
+//        }
+//        catch(Exception e){
+//            System.out.println(e);
+//        }
+//        System.out.println("Mosoom");
+        System.out.println(sum(5,7));
+
+
+
+    }
+}
